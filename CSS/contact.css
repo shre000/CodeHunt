@@ -1,0 +1,102 @@
+.contact_container {
+    background: hsla(236, 49%, 36%, 0.671);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem;
+    border-radius: 1rem;
+}
+
+.contact_aside {
+    background: #06a2fd;
+    border-radius: 2rem;
+    padding: 3rem;
+    position: relative;
+    bottom: 10rem;
+    box-shadow: inset 0 5;
+}
+
+.aside_image {
+    width: 19rem;
+    margin-bottom: 2rem;
+    align-content: center;
+}
+
+.contact_aside h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact_aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+
+.form_name {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.contact_form input[type="text"] {
+    width: 50%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    background: #7c62b923;
+    color: aliceblue;
+}
+
+/* ====================== Media quries===================*/
+@media screen and (max-width: 1024px) {
+    .contact
+    /* padding-bottom: 0; */
+    .contact_container {
+    gap: 1.5em;
+    margin-top: 3rem;
+    height: auto;
+    padding: 1.5rem;
+    }
+    .contact_aside {
+    width: auto;
+    padding: 1.5rem;
+    bottom: 0;
+    }
+    .contact_form{
+    align-self: center;
+    margin-right: 1.5em;
+    }
+}
+
+/*=======================MEDIA QUERIES(PHONES)==============*/
+/* =================== MEDIA QUERIES (PHONES) ================ */
+@media screen and (max-width: 600px) {
+    .contact_container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 0;
+    }
+    .contact_form {
+        margin: 0 1.5rem 3rem;
+    }
+
+    .form_name {
+        flex-direction: column;
+    }
+
+    .form_name input[type="text"] {
+        width: 100%;
+    }
+}
