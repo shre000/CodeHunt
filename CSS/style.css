@@ -409,6 +409,7 @@ footerul ul li a:hover {
     .header_right img {
         max-width: 20rem;
         margin-left: 4rem;
+        margin-right: 4rem;
     }
 
     .header_container {
