@@ -118,7 +118,7 @@ nav {
 /* CHANGE OF NAVBAR WHILE SCROLLING */
 .window-scroll {
     background: var(--color-primary);
-    box-shadow: 0 1rem 2rem rgbs(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.607);
 }
 
 .nav_container {
